@@ -16,9 +16,16 @@ def tri(trail):
     noth = trail[3]
     print(f"My {eye}! The {gog} do {noth}")
 
-    #print(eye)
+def night(nightmare):
+    eye = nightmare[0]['user']['name']['first']
+    gog = nightmare[0]['kumquat'] 
+    noth = nightmare[0]['d'] 
+
+    print(f"My {eye}! The {gog} do {noth}")
+    #noth = 
 
 
 if __name__ == "__main__":
     chal(challenge)
     tri(trial)
+    night(nightmare)
