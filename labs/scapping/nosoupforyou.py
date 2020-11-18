@@ -10,6 +10,7 @@ raw_html = open('montypython.html').read()
 # use the backend parser 'html.parser' to parse out the raw_html
 html = BeautifulSoup(raw_html, 'html.parser')
 
+#print(html)
 # the select method on the html object allows the selection of
 # CSS selectors to locate elements in the document
 # return a list of paragraph elements (dict like)

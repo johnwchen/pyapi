@@ -16,14 +16,12 @@ def main():
         #print(indice)
         indice_count +=1
     print(f"Total Number of game_indices for {pokeapi['name']} is \"{indice_count}\"")
-    print("")
+    #print("")
     poki_moves = pokeapi['moves']
     #print(poki_moves)
-    move_count = 0
+    #move_count = 0
     for mv in poki_moves:
-        move_count +=1
-    print(move_count)
-
+        print(mv['move']['name'])
         
 
 if __name__ == "__main__":
