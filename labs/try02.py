@@ -14,3 +14,9 @@ while True:
     except Exception as err:
         # sys.exc_info returns a 3 tuple with into about the exception handled
         print("We did not anticipate that:", err)
+    # raise by itself simply calls the previous exception that was thrown
+        raise
+    # else ONLY runs if there wasn't any errors
+    else:
+        print("\nThanks for learning to handle errors!")
+        break
